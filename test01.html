@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=" utf-8">
+<meta name="author" content="//www.jb51.net/" />
+<script>
+            
+  function copyFn(id){
+  var val = document.getElementById(id);
+  window.getSelection().selectAllChildren(val);
+  document.execCommand ("Copy");
+  window.getSelection().selectAllChildren(val);
+  alert("複製成功")
+  }
+</script>
+</head>
+<body>
+  <div id="home"><br/><hr></div>
+    <div class="navFixed">
+        <ul class="tpye1">
+            <li class="tpye1"><a href="./index.html">首頁</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">筆記</a>
+                <div class="dropdown-content">
+                    <a href="./chapter_1.html" >筆記一</a>
+                    <a href="#"class="back-to-top">筆記二</a>
+                    <a href="#three">第三篇文章</a>
+                    <a href="#four">第四篇文章</a>
+                    <a href="#five">第五篇文章</a>
+                    <a href="#six">第六篇文章</a>
+                    <a href="#seven">第七篇文章</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">小節</a>
+                <div class="dropdown-content">
+                    <a href="#one">第一章</a>
+                    <a href="#two">第二章</a>
+                    <a href="#three">第三章</a>
+                </div>
+            </li>
+        </ul>
+  </div>
+  <h1 style="text-align:center;">表格</h1>
+  <p id="1" >https://www.pinterest.com/nokhim53/%E3%82%8B%E3%81%97%E3%81%82/</p>
+  <input type="button" onclick="copyFn('1')">
+</body>
+</html>
