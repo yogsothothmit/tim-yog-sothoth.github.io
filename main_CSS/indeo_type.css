@@ -94,7 +94,7 @@ li.dropdown {
     height: 600px;
     width: 600px;
     background-color: #73d2fd;
-    background-image: url("../img/img02.jpg"), url("../img/1.png");
+    background-image: url("../img/project/img02.jpg"), url("../img/project/1.png");
     background-size: 100px, 100px;
     background-position: left bottom;
     background-repeat: repeat-y, repeat-x;
@@ -104,7 +104,7 @@ li.dropdown {
     height: 600px;
     width: 600px;
     background-color: #091aff;
-    background-image: url("../img/img03.jpg"), url("../img/img04.jpg"), url("../img/img03.jpg"), url("../img/img04.jpg");
+    background-image: url("../img/project/img03.jpg"), url("../img/project/img04.jpg"), url("../img/img03.jpg"), url("../img/project/img04.jpg");
     background-size: 100px, 100px, 100px, 100px;
     background-position: right top, left bottom, left bottom, right top;
     background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
@@ -177,7 +177,9 @@ td {
     border-style: 5px;
 }
 
-.div_move_type01 {}
+.div_move_type01 {
+    
+}
 
 .div_type01:hover .div_move_type01 {
     position: relative;
